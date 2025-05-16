@@ -75,6 +75,9 @@ body {
   background-color: #4d5ae5;
   cursor: pointer;
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
 }
 
 .hero-button:hover,
@@ -85,9 +88,6 @@ body {
 .hero-button-text {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
 }
 
 .main-title {
