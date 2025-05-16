@@ -11,10 +11,10 @@ address {
 }
 
 .header-logo {
-  font-family: raleway;
+  font-family: "Raleway";
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -51,9 +51,10 @@ address {
 }
 
 body {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
-  color: #2e2f42;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 .hero {
@@ -63,23 +64,28 @@ body {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 
 .hero-button {
+  font-family: "Roboto", sans-serif;
   background-color: #4d5ae5;
   cursor: pointer;
+  font-weight: 500;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
 }
 
 .hero-button-text {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #fff;
+  color: #ffffff;
 }
 
 .main-title {
@@ -98,14 +104,22 @@ body {
   color: #434455;
 }
 
+.section {
+  background-color: #f4f4fd;
+}
+
+.section-item {
+  background-color: #ffffff;
+}
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
-  background-color: #f4f4fd;
 }
 
 .section-subtitle {
@@ -129,9 +143,10 @@ body {
 .content-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
@@ -155,10 +170,10 @@ body {
   background-color: #2e2f42;
 }
 .footer-logo {
-  font-family: raleway;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
