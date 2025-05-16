@@ -53,6 +53,7 @@ address {
 body {
   font-family: "roboto", sans-serif;
   font-weight: 500;
+  color: #2e2f42;
 }
 
 .hero {
@@ -70,6 +71,7 @@ body {
 
 .hero-button {
   background-color: #4d5ae5;
+  cursor: pointer;
 }
 
 .hero-button-text {
